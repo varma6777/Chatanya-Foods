@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd Frontend && npm run build",
-  "outputDirectory": "Frontend/dist",
+  "buildCommand": "node -e \"const fs=require('fs'),cp=require('child_process');if(fs.existsSync('Frontend')){process.chdir('Frontend');cp.execSync('npm run build',{stdio:'inherit'});fs.cpSync('dist','../dist',{recursive:true})}else{cp.execSync('npm run build',{stdio:'inherit'})}\"",
+  "outputDirectory": "dist",
   "framework": "vite"
 }

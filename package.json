@@ -1,0 +1,9 @@
+{
+  "name": "chatanya-foods-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix Frontend run dev",
+    "build": "npm --prefix Frontend run build"
+  }
+}
