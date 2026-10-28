@@ -1,0 +1,25 @@
+.elementor-editor-active .tst-menu-frame,
+.elementor-editor-active footer,
+.elementor-editor-active .tst-dynamic-banner {
+	display: none;
+}
+.elementor-editor-active .tst-content-frame {
+	margin-top: 3rem;
+	padding-top: 4rem;
+}
+.elementor-editor-active .elementor-add-section {
+	margin: 0 !important;
+	background: #fcfcfc;
+	padding: 10px 0;
+}
+.elementor-editor-active #elementor-add-new-section {
+	margin: 0 !important;
+	padding: 60px 0 0;
+	background: #fcfcfc;
+}
+.elementor-editor-active .elementor-section-wrap:empty {
+	min-height: 0px;
+}
+.elementor-editor-active .tst-banner .tst-banner-content-frame.tst-with-map {
+	pointer-events: auto;
+}
